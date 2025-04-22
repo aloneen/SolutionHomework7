@@ -1,6 +1,5 @@
 package kz.seisen.Mediator;
 
-// Aircraft.java
 public abstract class Aircraft {
     private final String id;
     private boolean emergency, landing;

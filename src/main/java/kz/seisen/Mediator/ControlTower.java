@@ -32,12 +32,12 @@ public class ControlTower implements TowerMediator {
         // grant if free
         if (landingQueue.peek() == a) {
             landingQueue.poll();
-            broadcast(a.getId() + " cleared to land", this);
+            broadcast(a.getId() + " cleared to land", a);
             return true;
         }
         if (takeoffQueue.peek() == a && landingQueue.isEmpty()) {
             takeoffQueue.poll();
-            broadcast(a.getId() + " cleared for takeoff", this);
+            broadcast(a.getId() + " cleared for takeoff", a);
             return true;
         }
         return false;
