@@ -1,6 +1,5 @@
 package kz.seisen.Iterator;
 
-import kz.seisen.Iterator.SeasonIterator;
 import java.util.*;
 
 public class Season implements Iterable<Episode> {
