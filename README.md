@@ -22,8 +22,8 @@ This part implements the Iterator design pattern to support flexible and uniform
 - **Uniform Interface**: Clients use `hasNext()`/`next()` regardless of structure.
 
 ### UML
-![img.png](img.png)
 
+![img_8.png](img_8.png)
 
 
 
@@ -62,7 +62,8 @@ This part implements the Mediator pattern to simulate aircraft coordination at a
 - **Extensibility**: New aircraft types can be added with minimal changes.
 
 ### UML
-![img_1.png](img_1.png)
+
+![img_9.png](img_9.png)
 
 ### Result
 
